@@ -9,6 +9,8 @@ script purpose:
 			- truncates the bronze table before loading data.
 			- Uses the BULK INSERT command to load data from CSV files to bronze layer.
 
+USAGE : EXEC bronze.load_bronze;
+
 */
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
